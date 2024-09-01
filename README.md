@@ -49,3 +49,46 @@ def execute():
 execute()
 ```
 
+## Maze Solver
+The `Maze Solver` script is designed to navigate and solve a generated maze. It can handle various conditions, including finding treasure and avoiding obstacles.
+
+```python
+def startMaze():
+    clear()
+    plant(Entities.Bush)
+    while not is_over(Entities.Hedge) and not is_over(Entities.Treasure):
+        useFertilizer()
+    solveMaze()
+
+def solveMaze():
+    facing = 0
+    directions = [North, East, South, West]
+
+    while get_entity_type() != Entities.Treasure:
+        x = get_pos_x()
+        y = get_pos_y()
+
+        move(directions[facing % 4])
+
+        facing += 1
+        if x == get_pos_x() and y == get_pos_y():
+            facing += 2
+
+    harvest()
+
+def findTreasure():
+    # Logic to find the treasure within the maze
+    pass
+
+# Main Loop: Generate, Solve, Repeat
+while True:
+    plant_bushes_across_grid()
+    maze_created = apply_fertilizer_to_bushes()
+    if maze_created:
+        quick_print("Maze generated! Starting solver...")
+        solveMaze()
+        quick_print("Maze solved! Generating new maze...")
+    else:
+        quick_print("No maze was created. Trying again.")
+```
+
