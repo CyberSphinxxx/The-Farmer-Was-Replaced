@@ -9,7 +9,7 @@ This repository is direct copy paste. You just need to copy the code you need th
 The `Maze Generator` script is used to create a maze by planting bushes across the grid and applying fertilizer to transform bushes into hedges, forming a maze.
 
 <details>
-  <summary>Show Maze Generator Code</summary>
+  <summary><b>Show Maze Generator Code</b></summary>
 
 ```python
 def plant_bushes_across_grid():
@@ -47,10 +47,11 @@ execute()
 ```
 </details>
 
-<details>
-    <summary>Show Maze Solver Code</summary>
 ## Maze Solver
 The `Maze Solver` script is designed to navigate and solve a generated maze. It can handle various conditions, including finding treasure and avoiding obstacles.
+
+<details>
+    <summary><b>Show Maze Solver Code</b></summary>
 
 ```python
 def startMaze():
@@ -93,10 +94,15 @@ while True:
 ```
 </details>
 
-<details>
-    <summary>Show Pumpkin Management Code</summary>
 ## Pumpkin Management
-The Pumpkin Management script automates the process of planting, maintaining, and harvesting pumpkins. It uses drones to monitor the field and take action as needed.
+The `Pumpkin Management` script automates the process of planting, maintaining, and harvesting pumpkins. It uses drones to monitor the field and take action as needed.
+
+<details>
+    <summary>
+      <b>
+        Show Pumpkin Management Code
+      </b>
+      </summary>
 
 ```python
 from utils import move_to, move_back_direction, water_soil
