@@ -4,15 +4,12 @@ This repository contains a collection of code snippets and solutions for the gam
 
 This repository is direct copy paste. You just need to copy the code you need then paste it in your in-game terminal to use it.
 
-## Table of Contents
-
-- [Maze Generator](#maze-generator)
-- [Maze Solver](#maze-solver)
-- [Pumpkin Management](#pumpkin-management)
-
 ## Maze Generator
 
 The `Maze Generator` script is used to create a maze by planting bushes across the grid and applying fertilizer to transform bushes into hedges, forming a maze.
+
+<details>
+  <summary>Show Maze Generator Code</summary>
 
 ```python
 def plant_bushes_across_grid():
@@ -48,7 +45,10 @@ def execute():
 # Start the process
 execute()
 ```
+</details>
 
+<details>
+    <summary>Show Maze Solver Code</summary>
 ## Maze Solver
 The `Maze Solver` script is designed to navigate and solve a generated maze. It can handle various conditions, including finding treasure and avoiding obstacles.
 
@@ -91,7 +91,10 @@ while True:
     else:
         quick_print("No maze was created. Trying again.")
 ```
+</details>
 
+<details>
+    <summary>Show Pumpkin Management Code</summary>
 ## Pumpkin Management
 The Pumpkin Management script automates the process of planting, maintaining, and harvesting pumpkins. It uses drones to monitor the field and take action as needed.
 
@@ -230,6 +233,7 @@ def water_soil():
     if num_items(Items.Empty_Tank) + num_items(Items.Water_Tank) < 100:
         trade(Items.Empty_Tank)
 ```
+</details>
 
 ## Contributing
 Feel free to submit issues or pull requests if you have suggestions or improvements for the code.
