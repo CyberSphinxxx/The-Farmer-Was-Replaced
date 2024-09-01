@@ -95,7 +95,7 @@ while True:
 </details>
 
 ## Pumpkin Management
-The `Pumpkin Management` script automates the process of planting, maintaining, and harvesting pumpkins. It uses drones to monitor the field and take action as needed.
+The `Pumpkin Management` script automates the process of planting, maintaining, and harvesting pumpkins.
 
 <details>
     <summary>
