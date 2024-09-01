@@ -4,3 +4,8 @@ This repository contains a collection of code snippets and solutions for the gam
 
 This repository is direct copy paste. You just need to copy the code you need then paste it in your in-game terminal to use it.
 
+## Table of Contents
+
+- [Maze Generator](#maze-generator)
+- [Maze Solver](#maze-solver)
+- [Pumpkin Management](#pumpkin-management)
