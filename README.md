@@ -242,4 +242,4 @@ def water_soil():
 </details>
 
 ## Contributing
-Feel free to submit issues or pull requests if you have suggestions or improvements for the code.
+Feel free to submit issues or pull requests if you have suggestions, additions or improvements for the code.
